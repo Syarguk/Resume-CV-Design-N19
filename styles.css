@@ -1,4 +1,18 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+@font-face {
+  font-family: 'Montserrat';
+  src: url("fonts/montserrat-v23-latin-regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url("fonts/montserrat-v23-latin-500.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url("fonts/montserrat-v23-latin-700.ttf");
+  font-weight: 700;
+}
 
 * {
   margin: 0;
@@ -93,9 +107,11 @@ body {
   margin-right: 15px;
   font-size: 16px;
   position: relative;
+  background-size: 25px auto;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-.resume .icon i,
 .resume .resume_right .resume_hobby ul li i {
   position: absolute;
   top: 50%;
@@ -213,6 +229,9 @@ body {
   border-radius: 50%;
   position: relative;
   color: #0bb5f4;
+  background-size: 55px auto;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .resume .resume_right .resume_hobby ul li i {
@@ -231,4 +250,44 @@ body {
 
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
+}
+#house {
+  background-image: url("image/house.svg");
+}
+#phone {
+  background-image: url("image/phone.svg");
+}
+#email {
+  background-image: url("image/email.svg");
+}
+#github {
+  background-image: url("image/github.svg");
+}
+#facebook {
+  background-image: url("image/facebook.svg");
+}
+#instagram {
+  background-image: url("image/instagram.svg");
+}
+#telegram {
+  background-image: url("image/telegram.svg");
+}
+#linkedin {
+  background-image: url("image/linkedin.svg");
+}
+#guitar {
+  background-image: url("image/guitar.svg");
+}
+#tools {
+  background-image: url("image/tools.svg");
+}
+#solar {
+  background-image: url("image/solar.svg");
+}
+#bike {
+  background-image: url("image/bike.svg");
+}
+.resume .resume_right .resume_work a {
+  text-decoration: none;
+  color: #555555;
 }
